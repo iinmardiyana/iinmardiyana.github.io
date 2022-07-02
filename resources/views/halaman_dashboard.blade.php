@@ -489,10 +489,10 @@
                                 </tr>
                             </table>
                         </div>
-                        <div class="col-md-12 mt-3">
+                        {{-- <div class="col-md-12 mt-3">
                             <p class="text-dark font-weight-bold" style="font-size: 14px;">Paket Laundry Kiloan</p>
-                        </div>
-                        <div class="col-md-12">
+                        </div> --}}
+                        {{-- <div class="col-md-12">
                             <div class="default-tab">
                                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
                                 @php
@@ -505,12 +505,12 @@
                                         <div class="card-body">
                                             <h5 class="card-title">{{ $paket_kilo->nama_paket }}</h5>
                                             {{-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> --}}
-                                            <p class="card-text">Rp. {{ number_format($paket_kilo->harga_paket,2,',','.') }}</p>
+                                            {{-- <p class="card-text">Rp. {{ number_format($paket_kilo->harga_paket,2,',','.') }}</p>
                                             <p class="card-text">{{ $paket_kilo->hari_paket }} Hari</p>
                                             <P class="card-text">Minimal berat : {{ $paket_kilo->min_berat_paket }} Kg</P>
                                         </div>
                                     </div>
-                                @endforeach
+                                @endforeach --}}
                                 {{-- <ul class="nav nav-tabs mb-3" role="tablist">
                                     <div class="row" id="daftar_paket_kiloan">   
                                     </div>
@@ -541,12 +541,12 @@
                                     </div> --}}
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-12">
+        {{-- <div class="col-lg-12">
             <div class="card">
                 <div class="card-body">
                     <div class="row">
@@ -712,7 +712,7 @@
                 </div>
             </div>
             
-        </div>
+        </div> --}}
     </div>
 </div>
 @endif
